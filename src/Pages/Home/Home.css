@@ -1,0 +1,28 @@
+
+
+
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap:20px;
+    padding: 20px 120px;
+}
+.text-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 580px) {
+    .hero-text{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .text-footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
